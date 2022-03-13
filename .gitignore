@@ -1,4 +1,7 @@
-
 server/.env
 node_modules
-client/
+client/public/
+
+client/src/App.test.js
+client/src/App.css
+client/README.md
