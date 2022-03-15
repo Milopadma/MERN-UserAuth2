@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
+//login page, shown after register
 function App() {
   const navigate = useNavigate();
   const [email, setEmail] = useState("");

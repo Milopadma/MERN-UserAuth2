@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
+//register page
 function App() {
   const navigate = useNavigate();
   const [name, setName] = useState("");

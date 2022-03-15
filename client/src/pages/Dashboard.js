@@ -3,6 +3,7 @@ import React, { useEffect, useState } from "react";
 import jwt from "jsonwebtoken";
 import { useNavigate } from "react-router-dom";
 
+//dashboard page (only shown after successful log in)
 const Dashboard = () => {
   const navigate = useNavigate();
   const [quote, setQuote] = useState("");
